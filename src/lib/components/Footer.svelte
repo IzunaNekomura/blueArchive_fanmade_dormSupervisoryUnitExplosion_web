@@ -22,15 +22,34 @@
         <div
             class="max-w-2xl mx-auto text-xs text-slate-500 space-y-2 mb-8 border-t border-slate-800 pt-8"
         >
-            <p>
-                本ゲームおよびWebサイトは、「ブルーアーカイブ -Blue
-                Archive-」のファンメイド作品（二次創作）です。<br />
-                株式会社Yostar様、株式会社Nexon Games様、その他関係者様とは一切関係ありません。
+            <p class="text-wildhunt-teal font-mono text-sm font-bold">
+                免責事項・権利表記
             </p>
+            <p>
+                本サイトおよび配布物は、PC/スマートフォンアプリ『ブルーアーカイブ
+                -Blue Archive-』の非公式二次創作コンテンツです。<br />
+                公式運営元である株式会社NEXON Games様、株式会社Yostar様、および関係各社様とは一切関係ございません。
+            </p>
+            <p>
+                本作品は個人的な趣味の範囲で制作されたものであり、営利を目的としたものではありません。<br
+                />
+                公式の二次創作ガイドラインを遵守して制作しておりますが、<br />
+                万が一ガイドラインの変更等により公開停止の要請があった場合は、速やかに対応いたします。
+            </p>
+            <p>
+                ゲーム内で使用されているキャラクター、画像、音楽等の知的財産権は、すべて原著作者に帰属します。
+                <br />出典：ブルーアーカイブ -Blue Archive- (© NEXON Games Co.,
+                Ltd. & Yostar, Inc.)
+            </p>
+            <p></p>
         </div>
 
         <p class="text-wildhunt-teal font-mono text-sm font-bold">
-            © 2025 Unofficial Fan Project.
+            Site content & Game Code ©2026 同人ゲーム開発部.
+        </p>
+        <p class="text-wildhunt-teal font-mono text-sm font-bold">
+            ブルーアーカイブ公式サイト：
+            <a href="https://bluearchive.jp/">https://bluearchive.jp/</a>
         </p>
     </div>
 </footer>

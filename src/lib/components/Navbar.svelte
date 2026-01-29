@@ -71,11 +71,11 @@
             <a href="#system" class="hover:text-emerald-400">ゲームシステム</a>
             <a href="#characters" class="hover:text-emerald-400">キャラクター</a
             >
-            <button
+            <!-- <button
                 class="bg-yellow-400 text-black px-4 py-2 rounded border-2 border-black flex items-center justify-center gap-2"
             >
                 <Volume2 size={18} /> BGM ON
-            </button>
+            </button> -->
         </div>
     {/if}
 </nav>
