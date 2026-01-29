@@ -19,7 +19,7 @@
 
         <div class="max-w-4xl mx-auto">
             <div
-                class="bg-white border-4 border-wildhunt-beige p-8 md:p-12 shadow-[12px_12px_0px_0px_#C0392B] relative transform rotate-1"
+                class="bg-white border-4 border-wildhunt-beige p-8 pt-16 md:p-12 shadow-[12px_12px_0px_0px_#C0392B] relative transform rotate-1"
             >
                 <!-- Decorative Icon -->
                 <div
