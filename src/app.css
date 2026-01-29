@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+@theme {
+    --color-wildhunt-teal: #2F5D62;
+    --color-wildhunt-red: #C0392B;
+    --color-wildhunt-beige: #F5F5DC;
+    --color-wildhunt-grey: #9CA3AF;
+    --color-wildhunt-black: #1a202c;
+    --color-wildhunt-white: #ffffff;
+}
+
+
+@layer utilities {
+    @keyframes wiggle {
+
+        0%,
+        100% {
+            transform: rotate(-3deg);
+        }
+
+        50% {
+            transform: rotate(3deg);
+        }
+    }
+
+    @keyframes float {
+
+        0%,
+        100% {
+            transform: translateY(0px);
+        }
+
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+    @keyframes pulse-fast {
+
+        0%,
+        100% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.05);
+        }
+    }
+
+    @keyframes shake-hard {
+        0% {
+            transform: translate(1px, 1px) rotate(0deg);
+        }
+
+        10% {
+            transform: translate(-1px, -2px) rotate(-1deg);
+        }
+
+        20% {
+            transform: translate(-3px, 0px) rotate(1deg);
+        }
+
+        30% {
+            transform: translate(3px, 2px) rotate(0deg);
+        }
+
+        40% {
+            transform: translate(1px, -1px) rotate(1deg);
+        }
+
+        50% {
+            transform: translate(-1px, 2px) rotate(-1deg);
+        }
+
+        60% {
+            transform: translate(-3px, 1px) rotate(0deg);
+        }
+
+        70% {
+            transform: translate(3px, 1px) rotate(-1deg);
+        }
+
+        80% {
+            transform: translate(-1px, -1px) rotate(1deg);
+        }
+
+        90% {
+            transform: translate(1px, 2px) rotate(0deg);
+        }
+
+        100% {
+            transform: translate(1px, -2px) rotate(-1deg);
+        }
+    }
+
+    .animate-wiggle {
+        animation: wiggle 0.5s ease-in-out infinite;
+    }
+
+    .animate-float {
+        animation: float 3s ease-in-out infinite;
+    }
+
+    .animate-pulse-fast {
+        animation: pulse-fast 0.2s ease-in-out infinite;
+    }
+
+    .animate-shake:hover {
+        animation: shake-hard 0.5s;
+    }
+
+    .font-outline {
+        text-shadow:
+            3px 3px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    }
+
+    .font-outline-sm {
+        text-shadow:
+            2px 2px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    }
+
+    .bg-burst {
+        background-color: #F5F5DC;
+        background-image: repeating-linear-gradient(transparent,
+                transparent 50px,
+                #E8E8C8 50px,
+                #E8E8C8 53px),
+            linear-gradient(90deg,
+                #F9F9E0,
+                #FFFFFF);
+    }
+
+    .caution-tape {
+        background: repeating-linear-gradient(45deg,
+                #facc15,
+                #facc15 15px,
+                #000 15px,
+                #000 30px);
+    }
+
+    .border-sketchy {
+        border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+    }
+}
