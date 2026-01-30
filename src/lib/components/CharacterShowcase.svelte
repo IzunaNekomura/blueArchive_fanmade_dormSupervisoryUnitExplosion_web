@@ -105,7 +105,7 @@
 
                         <!-- Drag State Image (Visible on Hover/Active) -->
                         <div
-                            class={`absolute inset-0 flex items-center justify-center transition-opacity duration-200 pointer-events-none transition-transform ${
+                            class={`absolute inset-0 flex items-center justify-center transition-all duration-200 pointer-events-none ${
                                 isInteracting
                                     ? "opacity-100 rotate-12"
                                     : "opacity-0 -rotate-6"

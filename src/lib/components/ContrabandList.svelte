@@ -43,7 +43,7 @@
                         class="flex items-center gap-4 p-4 bg-slate-50 rounded border-2 border-slate-300 hover:border-red-500 transition-colors cursor-help group border-sketchy"
                     >
                         <div
-                            class="w-16 h-16 bg-slate-200 rounded flex-shrink-0 flex items-center justify-center text-3xl group-hover:animate-bounce border-2 border-slate-400"
+                            class="w-16 h-16 bg-slate-200 rounded shrink-0 flex items-center justify-center text-3xl group-hover:animate-bounce border-2 border-slate-400"
                         >
                             📦
                         </div>

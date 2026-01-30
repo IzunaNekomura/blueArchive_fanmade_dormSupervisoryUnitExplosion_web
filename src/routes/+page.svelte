@@ -1,5 +1,4 @@
 <script lang="ts">
-    import App from "./+page.svelte"; // Correction: No, we are IN +page.svelte
     import Hero from "$lib/components/Hero.svelte";
     import Story from "$lib/components/Story.svelte";
     import CharacterShowcase from "$lib/components/CharacterShowcase.svelte";
