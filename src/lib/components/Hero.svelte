@@ -65,7 +65,7 @@
         <div
             class="absolute -top-4 -right-4 bg-wildhunt-beige text-black text-sm font-bold px-3 py-1 border-2 border-black animate-bounce rotate-12"
         >
-            ON STEAM!
+            ON STEAMの予定（未定）!
         </div>
     </button>
 
